@@ -52,7 +52,7 @@ void print_multiple_docs_text(indri::collection::Repository& r, const std::strin
 }
 
 void usage() {
-    std::cout << "    IndriTextTransformer -index=... -docnofile=... [-outputdir=...]" << std::endl;
+    std::cout << "    IndriDumpMultiDocs -index=... -docnofile=... [-outputdir=...]" << std::endl;
     std::cout << "    1. index - index path" << std::endl;
     std::cout << "    2. docnofile - input file that contains all the docno" << std::endl; 
     std::cout << "    3. outputdir - outputdir, optional" << std::endl;
