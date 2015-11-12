@@ -5,7 +5,7 @@ You need Indri to ```make``` the binary
 
 **Compile**
 
-```make -f Makefile.app
+```make -f Makefile.app```
 
 **Usage**
 
