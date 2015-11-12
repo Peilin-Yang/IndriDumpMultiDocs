@@ -52,10 +52,7 @@ void print_multiple_docs_text(indri::collection::Repository& r, const std::strin
 }
 
 void usage() {
-    std::cout << "    IndriDumpMultiDocs -index=... -docnofile=... [-outputdir=...]" << std::endl;
-    std::cout << "    1. index - index path" << std::endl;
-    std::cout << "    2. docnofile - input file that contains all the docno" << std::endl; 
-    std::cout << "    3. outputdir - outputdir, optional" << std::endl;
+    std::cout << "    IndriDumpMultiDocs -index=<index path> -docnofile=<intput file that contains all the docno> [-outputdir=<output folder>]" << std::endl;
 }
 
 void require_parameter( const char* name, indri::api::Parameters& p ) {
